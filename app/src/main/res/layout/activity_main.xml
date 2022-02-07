@@ -34,22 +34,23 @@
                 android:id="@+id/subtitol"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
                 android:padding="@dimen/padding_subtitol"
                 android:text="@string/subtitol"
                 android:textAlignment="center"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                android:textColor="@color/black"
-                android:textFontWeight="@android:integer/config_longAnimTime" />
+                android:textColor="@color/gris"
+                android:textFontWeight="@android:integer/config_longAnimTime"
+                android:textSize="34sp" />
 
             <Button
                 android:id="@+id/btnciencia"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/margin_buttons"
-                android:background="@color/black"
+                android:backgroundTint="@color/gris"
                 android:padding="@dimen/padding_regular"
                 android:text="Science"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 app:iconTint="@color/black" />
 
             <Button
@@ -57,14 +58,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/margin_buttons"
+                android:backgroundTint="@color/gris"
                 android:padding="@dimen/padding_regular"
+                android:textColor="@color/black"
                 android:text="Technology" />
 
             <Button
                 android:id="@+id/btnsalut"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="@color/gris"
                 android:padding="@dimen/padding_regular"
+                android:textColor="@color/black"
                 android:text="Health" />
         </LinearLayout>
     </ScrollView>
